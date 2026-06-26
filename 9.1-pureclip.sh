@@ -1,0 +1,70 @@
+OUTDIR="/home/miav/scratch/9_merged_star/"
+INDIR="/home/miav/scratch/7_dedup_star/"
+cd $INDIR
+
+# B KO
+samtools merge -f B_KO_merged.bam SRR7457034_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457035_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457036_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457037_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam 
+
+samtools index B_KO_merged.bam
+mv B_KO_merged.bam* $OUTDIR
+
+# B WT
+samtools merge -f B_WT_merged.bam SRR7457038_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457039_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457040_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457041_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam
+
+samtools index B_WT_merged.bam
+mv B_WT_merged.bam* $OUTDIR
+
+# DC KO
+samtools merge -f DC_KO_merged.bam SRR7457042_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457043_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457044_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457045_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam
+
+samtools index DC_KO_merged.bam
+mv DC_KO_merged.bam* $OUTDIR
+
+
+# DC WT
+samtools merge -f DC_WT_merged.bam SRR7457046_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457047_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457048_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457049_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam
+
+samtools index DC_WT_merged.bam
+mv DC_WT_merged.bam* $OUTDIR
+
+# M KO
+samtools merge -f M_KO_merged.bam SRR7457050_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457051_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457052_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457053_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam
+
+samtools index M_KO_merged.bam
+mv M_KO_merged.bam* $OUTDIR
+
+# M WT
+samtools merge -f M_WT_merged.bam SRR7457054_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457055_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457056_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457057_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam
+
+samtools index M_WT_merged.bam
+mv M_WT_merged.bam* $OUTDIR 
+
+# CD4 KO
+samtools merge -f CD4_KO_merged.bam SRR7457058_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457059_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457060_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457061_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam
+
+samtools index CD4_KO_merged.bam
+mv CD4_KO_merged.bam* $OUTDIR
+
+# CD4 WT
+samtools merge -f CD4_WT_merged.bam SRR7457062_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457063_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457064_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam SRR7457065_filtered_UMI_extracted_adapter_removedAligned.sortedByCoord.out_dedup.bam
+
+samtools index CD4_WT_merged.bam
+mv CD4_WT_merged.bam* $OUTDIR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
