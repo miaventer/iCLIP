@@ -18,3 +18,7 @@ The individual steps are housed in their own scripts, and then there's a Slurm s
 
 After peak calling, I use BindingSiteFinder(https://www.bioconductor.org/packages/release/bioc/vignettes/BindingSiteFinder/inst/doc/vignette.html#33_Performing_the_main_analysis) in R to do the rest of the analysis.
 
+TO DO:
+- remove BWA option
+- fix in and our directories in scripts
+- find a way to automate. maybe snakemake
