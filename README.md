@@ -20,5 +20,5 @@ After peak calling, I use BindingSiteFinder(https://www.bioconductor.org/package
 
 TO DO:
 - remove BWA option
-- fix in and our directories in scripts
+- fix directories in scripts
 - find a way to automate. maybe snakemake
